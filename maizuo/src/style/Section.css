@@ -1,0 +1,25 @@
+.sec{
+	flex: 1;
+	overflow-y: auto;
+	background: #e1e1e1;
+	width: 100%;
+	
+}
+.line{
+	width: 100%;
+	height: 0.2rem;
+	margin: 0.6rem 0;
+	border-bottom: 1px solid #a8a8a8;
+}
+.line span{
+	display: block;
+	width: 1.3rem;
+	height: 0.4rem;
+	border-radius: 0.1rem;
+	line-height: 0.4rem;
+	background: #a7a7a7;
+	font-size: 0.2rem;
+	text-align: center;
+	margin: 0 auto;
+	color: #eee;
+}

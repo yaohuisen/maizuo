@@ -1,0 +1,48 @@
+.ull li{
+	list-style: none;
+	width: 100%;
+	height: 4.2rem;
+	padding: 0 0.34rem;
+	margin-bottom: 0.34rem;
+}
+.ull dl{
+	width: 100%;
+	height: 100%;
+}
+.ull dt{
+	width: 100%;
+	height: 3.2rem;
+}
+.ull dd{
+	height: 1rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.infor{
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	margin-top: 0.26rem;
+	margin-left: 0.3rem;
+}
+.core{
+	font-size:0.36rem;
+	line-height: 1rem;
+	color: #f78360;
+	margin-right: 0.3rem;
+}
+.infor p{
+	color: #9a9a9a;
+}
+
+.moreButton{
+	width: 3.2rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	border: 1px solid #aaa;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.6rem;
+	margin: 0.2rem 1.6rem 0.6rem;
+}

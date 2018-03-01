@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				height: 4000px;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#test">回到测试</a> 
+		 
+		<!--比如有很长内容，内容省略-->
+		<div></div>
+		<h1><h3 id="test" >测试</h3> </h1>
+		 
+	</body>
+	<script src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('a[href^="#"]').click(function(e){
+		                    e.preventDefault();
+		                    $('html, body').animate({scrollTop: $(this.hash).offset().top}, 400);
+		                });
+		
+			
+		
+	</script>
+</html>
